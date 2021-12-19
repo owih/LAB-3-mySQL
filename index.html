@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/e37c9c6522.js" crossorigin="anonymous"></script>
+    <title>Основная страница</title>
+</head>
+<body>
+        <div class="wrapper" id="wrapper">
+            <header class="header">
+                <div class="container-header">
+                    <button type="submit" class="fa fa-search">
+                    </button>
+                    <div class="menu__search">
+                    </div>
+                    <div class="header__logo">
+                        <a href="#">coursera</a>
+                    </div>
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <div class="header__row">
+                        <div class="header__left-list burger">
+                            <div class="header__down-menu">
+                                <span>
+                                    Изучить
+                                </span>
+                            </div>
+                            <div class="header__search">
+                                <form>
+                                <input type="text" placeholder="Чему вы хотите научиться?">
+                                <button type="submit" class="fas fa-search">
+                                </button>
+                            </form>
+                            </div>
+                        </div>
+                        <div class="header__right-menu burger">
+                            <ul class="right-list">
+                                <li>
+                                    <a href="#">Для организаций</a>
+                                </li>
+                                <li><a href="#">Для студентов</a></li>
+                                <li><a href="#">
+                                    <span>
+                                        Войти
+                                    </span>
+                                </a></li>
+                                <li>
+                                    <a href="#" class="link__button">Присоединиться бесплатно</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navigation__panel_active">
+                            <div class="about-project">
+                                <a data-goto=".about" href="#" class="menu__link">
+                                    О проекте
+                                </a>
+                            </div>
+                            <div class="teachers">
+                                <a data-goto=".teacher" class="menu__link" href="#">
+                                    Преподаватели
+                                </a>
+                            </div>
+                            <div class="questions">
+                                <a href="#" class="menu__link" data-goto="sec2">
+                                    Программа курса
+                                </a>
+                            </div>
+                            <div class="questions" class="menu__link" data-goto="sec2">
+                                <a href="#">
+                                    Рецензии
+                                </a>
+                            </div>
+                            <div class="questions" class="menu__link" data-goto="sec2">
+                                <a href="#">
+                                    Параметры регистрации
+                                </a>
+                            </div>
+                            <div class="questions"> 
+                                <a href="#" data-goto="sec2" class="menu__link">
+                                    Часто задаваемые вопросы
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <header class="logo">
+                <div class="container">
+                    <div class="logo__row">
+                        <div class="logo__course-info">
+                            <nav class="logo__track-info">
+                                <ul class="link-track">
+                                    <li><a class="link" href="#">Обзор</a></li>
+                                    <li><a class="link" href="#">Компьютерные науки</a></li>
+                                    <li><a class="link" href="#">Разработка мобильных и веб-приложений</a></li>
+                                </ul>
+                            </nav>
+                            <div class="logo__spec">
+                                Этот курс входит в специализацию ''<a class="link" href="#">Специализация Web Applications for Everybody</a>''
+                            </div>
+                            <section class="logo__main-info-course">
+                                <h1>
+                                    Building Web Applications in PHP
+                                </h1>
+                                <div class="logo__mark-of-course">
+                                    <a class="link" href="#">
+                                        <img src="image/icons/4.5-stars.png" alt="">
+                                        Оценки 3 613
+                                    </a>
+                                </div>
+                                <div class="logo__author">
+                                    <a class="link" href="#">
+                                        <img src="image/image/avatar-teacher.jpeg" alt="">
+                                        <span> Charles Russell Severance</span>
+                                    </a>
+                                </div>
+                                    <div class="logo__participate">
+                                        <a class="link" href="#">
+                                            <span class="link-button">
+                                            Учавствовать бесплатно  <br><br>
+                                            Начинается 17 сент. г. 
+                                            </span>
+                                        </a> 
+                                    <a class="link link-help" href="#">
+                                        <span class="link-underlined">
+                                        Доступна финансовая помощь
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="registered-now">
+                                    <span>
+                                        116 987
+                                    </span>
+                                    уже зарегистрированы 
+                                </div>
+                        <a href="bd.php" class="text-light revert-link mt-3">База данных по курсу</a>
+                        <style type="text/css">
+                            .revert-link {
+                                text-align: center;
+                                padding: 7px 20px;
+                                background: red;
+                                border-radius: 0.25rem;
+                                width: 100%;
+                                color: black !important;
+                                display: block;
+                                margin-bottom: 30px;
+                                background-color: #ffcb05;
+                                vartical-align: middle;
+                            }
+                          </style>
+                            </section>
+                        </div>
+                        <div class="logo__partner">
+                            <span>
+                                от партнера
+                            </span>
+                            <div class="image-partner">
+                            <img src="image/image/header-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+            </header><a name="sec1"></a>
+            <nav class="navigation" id="nav">
+                <div class="nav-content">
+                    <div class="container">
+                        <div class="navigation__panel">
+                            <div class="about-project">
+                                <a href="#sec1" class="link_on-focus">
+                                    О проекте
+                                </a>
+                            </div>
+                            <div class="teachers">
+                                <a href="#sec2">
+                                    Преподаватели
+                                </a>
+                            </div>
+                            <div class="questions">
+                                <a href="#">
+                                    Программа курса
+                                </a>
+                            </div>
+                            <div class="questions">
+                                <a href="#">
+                                    Рецензии
+                                </a>
+                            </div>
+                            <div class="questions">
+                                <a href="#">
+                                    Параметры регистрации
+                                </a>
+                            </div>
+                            <div class="questions">
+                                <a href="#">
+                                    Часто задаваемые вопросы
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <section class="about">
+                    <div class="container">
+                        <div class="about__row">
+                            <div class="about__main">
+                                <div class="tittle__main about__tittle">
+                                    Об этом курсе
+                                </div>
+                                <div class="subtittle about__recently-seen">
+                                    Недавно просмотрено: 175 292
+                                </div>
+                                <div class="about__text">
+                                    In this course, you'll explore the basic structure of a web application, and how a web browser interacts with a web server. You'll be introduced to the request/response cycle, including GET/POST/Redirect. You'll also gain an introductory understanding of Hypertext Markup Language (HTML), as well as the basic syntax and data structures of the PHP language, variables, logic, iteration, arrays, error handling, and superglobal variables, among other elements. An introduction to Cascading Style Sheets (CSS) will allow you to style markup for webpages. 
+                                    <span class="example2"> Lastly, you'll gain the skills and knowledge to install and use an integrated PHP/MySQL environment like XAMPP or MAMP. <span>                               
+                                </div>
+                                <div class="about__skills">
+                                    <div class="about__skills-tittle">
+                                        Приобретаемые навыки
+                                    </div>
+                                    <ul class="skills-list">
+                                        <div>Hypertext Preprocessor (PHP)</div>
+                                        <div>Html</div>
+                                        <div>Cascading Style Sheets (CCS)</div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <aside class="about__stats">
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-1-calendar.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        Гибкие сроки
+                                    </div>
+                                    <div class="timing__text about__text">
+                                        Назначьте сроки сдачи в соответствии со своим графиком.
+                                    </div>
+                                </div>
+                                <div class="sertificate cards">
+                                    <img src="image/icons/aside-2-sertificate.png" alt="">
+                                    <div class="sertificate__tittle about__tittle">
+                                        Сертификат, ссылками на который можно делиться с другими людьми
+                                    </div>
+                                    <div class="sertificate__text about__text">
+                                        Получите сертификат по завершении
+                                    </div>
+                                </div>
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-3-globe.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        100% онлайн
+                                    </div>
+                                    <div class="timing__text about__text">
+                                        Начните сейчас и учитесь по собственному графику.
+                                    </div>
+                                </div>
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-4-cards.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        Курс 1 из 4 в программе
+                                    </div>
+                                    <div class="timing__text about__text">
+                                        <a href="#">
+                                            Специализация Web Applications for Everybody
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-5-middle-signal.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        Средний уровень
+                                    </div>
+                                    <div class="timing__text about__text">
+                                     
+                                    </div>
+                                </div>
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-6-clock.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        Прибл. 31 час на выполнение
+                                    </div>
+                                    <div class="timing__text about__text">
+                                        
+                                    </div>
+                                </div>
+                                <div class="timing cards">
+                                    <img src="image/icons/aside-7-message.png" alt="">
+                                    <div class="timing__tittle about__tittle">
+                                        Английский
+                                    </div>
+                                    <div class="timing__text about__text">
+                                        Субтитры: Арабский, Французский, Португальский (Европа), Итальянский, Вьетнамский,
+                                        <span class="example3">
+                                            Корейский, Немецкий, Русский, Английский, Испанский
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </aside>
+                        </div>
+                    </div>
+                </section>
+                <a name="sec2"></a>
+                <section class="teacher">
+                    <div class="container">
+                        <div class="teacher__tittle-and-mark">
+                            <div class="teacher__tittle tittle tittle__main">
+                                Преподаватели
+                            </div>
+                            <div class="teacher__mark subtittle">
+                                Оценка преподавателя  <img src= "image/icons/teacher_mark.png" alt=""> <span> 4,78/5 (оценок: 591)</span>
+                            </div>
+                        </div>
+                        <div class="teacher__row">
+                                <div class="teacher__avatar">
+                                        <a href="#" class="teacher__avatar">
+                                            <img src="image/image/bigAvatar.jpeg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="teacher__info">
+                                        <a href="#" class="teacher__avatar-info">
+                                            <div class="teacher__info-tittle tittle__main">
+                                                Charles Russell Severance
+                                            </div>
+                                            <div class="teacher__info-subtittle">
+                                                Chinical Professor
+                                            </div>
+                                            <div class="teacher__info-school">
+                                                School of Information
+                                            </div>
+                                            <div class="teacher__info-members">
+                                                <img src="image/icons/SvgMembers.png" alt="">
+                                                <span>3 047 0195</span> учащихся
+                                            </div>
+                                            <div class="teacher__info-courses">
+                                                <img src="image/icons/SvgBook.png" alt="">
+                                                <strong> 46 </strong>курсов 
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="teacher__partner-tittle tittle tittle__main">
+                                        от партнера
+                                    </div>
+                                
+                                    <div class="teacher__partner-img">
+                                        <a href="#">
+                                            <img src="image/image/pertner600px.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="teacher__partner-info">
+                                        <div class="teacher__partner-tittle tittle__main">
+                                            <a href="#" class="partner__tittle">
+                                                Мичиганский университет
+                                            </a>
+                                        </div>
+                                        <div class="teacher__partner-text">
+                                            The mission of the University of Michigan is to serve the people of Michigan and the world through preeminence in creating, communicating, preserving and applying knowledge, art, and academic values, and in developing leaders and citizens who will challenge the present and enrich the future.
+                                        </div>
+                                    </div>
+                        </div>  
+                    </div>
+                </section>
+                <section class="slider1">
+                    <div class="container__slider container">
+                            <div class="slider">
+                                <div class="slider__item">
+                                    <div>
+                                        <img src="image/image/slider-1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        Coursera помогла мне решиться на перемены в жизни. <br> Сейчас я на пути к профессии своей мечты.
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div>
+                                        <img src="image/image/slider-2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        Новые идеи и навыки помогли мне реализовать<br> проект на работе.
+                                    </div>
+                                </div>                                <div class="slider__item">
+                                    <div>
+                                        <img src="image/image/slider-3.jpg" alt="">
+                                    </div>
+                                    <div>  
+                                        <div>
+                                            На Coursera я развиваюсь как личность и как<br> профессионал. Курсы помогли мне лучше справляться<br> с повседневными задачами.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                      
+                    </div>
+                </section>
+            </main>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__info">
+                        <div class="footer__item">
+                            <div class="footer__career">
+                                <div class="tittle__career tittle__main">
+                                    Начните карьеру или продвиньтесь по карьерной лестнице
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Аналитик данных Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Управление проектами от Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        UX-дизайн от Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        ИТ-поддержка Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Наука о данных IBM
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Аналитик данных от IBM
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Анализ данных с помощью Excel и R от IBM
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Аналитик по кибербезопасности от IBM
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Маркетинг в социальных сетях от Facebook
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Разработчик комплексных облачных приложений IBM
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Представитель по развитию продаж от Salesforce
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Сбытовые операции Salesforce
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Soporte de Tecnologías de la Información de Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Certificado profesional de Suporte em TI do Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        ИТ-автоматизация с помощью Python от Google
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Tensorflow от DeepLearning.AI
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Популярные сертификаты по кибербезопасности
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Популярные сертификаты по SQL
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Популярные сертификаты по ИТ
+                                    </a>
+                                </div>                                <div>
+                                    <a href="#">
+                                        Посмотреть все сертификаты
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__popular-themes">
+                                <div class="tittle__popular-themes tittle__main">
+                                    Смотреть популярные темы
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        бесплатные курсы
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Изучите иностранный язык
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Python
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Java
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        веб-дизайн
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        SQL
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Cursos Gratis
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Microsoft Excel
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Управление проектами
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Безопасность в киберпространстве
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Людские ресурсы
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Бесплатные курсы в области науки о данных
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        говорить на английском
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Написание контента
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Веб-разработка: полный спектр технологий
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Искусственный интеллект
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Программирование на языке C
+                                    </a>
+                                </div>                                 <div>
+                                    <a href="#">
+                                        Навыки общения
+                                    </a>
+                                </div>     <div>
+                                    <a href="#">
+                                        Блокчейн
+                                    </a>
+                                </div>     <div>
+                                    <a href="#">
+                                        Просмотреть все курсы
+                                    </a>
+                                </div>   
+                            </div>
+                            <div class="footer__team">
+                                <div class="team__tittle tittle__main">
+                                    Развивайте свою команду
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки для команд по науке о данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Принятие решений на основе данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки в области программной инженерии
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки межличностного общения для проектных групп
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Управленческие навыки
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки в области маркетинга
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки для отделов продаж
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки менеджера по продукту
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки в области финансов
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Проекты по разработке для Android
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Проекты по TensorFlow и Keras
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Python для всех
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Глубокое обучение
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки Excel для бизнеса
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Основы бизнеса
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Машинное обучение
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Основы AWS
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Основы инженерии данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки для аналитика данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Навыки для UX-дизайнеров
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__diploma">
+                                <div class="diploma__tittle tittle__main">
+                                    Получите диплом или сертификат онлайн
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Сертификаты MasterTrack®
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Профессиональные сертификаты
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Сертификаты университетов
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        MBA и другие дипломы в области бизнеса
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени в области науки о данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени в области компьютерных наук 
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Дипломные программы по анализу данных
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени в области общественного здравоохранения
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени в области социальных наук
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Дипломные программы в области управления
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Дипломы ведущих европейских университетов
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Дипломы магистра
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени бакалавра
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Дипломы с карьерными путями, ориентированными на результат
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Бакалаврские курсы
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Что такое диплом бакалавра?
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Сколько времени нужно для получения диплома магистра?
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Стоит ли получать диплом MBA онлайн?
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        7 способов оплатить магистратуру
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Просмотреть все степени
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__coursera">
+                                <div class="coursera__tittle tittle__main">
+                                    Coursera
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        О проекте
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Что мы предлагаем
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Руководство
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Карьера
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Каталог
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Coursera Plus
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Профессиональные сертификаты
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Сертификаты MasterTrack®
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Степени
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Для организаций
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Для правительственных организаций
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Для стационара
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__social">
+                                <div class="social__tittle tittle__main">
+                                    Сообщество
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Учащиеся
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Партнеры
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Разработчики
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Бета-тестировщики
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Переводчики
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Блог
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Технический блог
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Центр преподавания
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__more">
+                                <div class="more__tittle tittle__main">
+                                    Еще
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Пресса
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Инвесторы
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Условия
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Конфиденциальность
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Помощь
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Доступность
+
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Контакты
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Статьи
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Справочник
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        Филиалы
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__apps">
+                                <div>
+                                    <a href="#"">
+                                        <img src="image/icons/appstore.svg" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="image/icons/googleplay.png" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <img src="image/icons/certified.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copy">
+                        <div class="footer__copy-row">
+                            <div class="footer__copy-right">
+                                © Coursera Inc., 2021 Все права защищены.
+                            </div>
+                            <div class="footer_copy-links">
+                                <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="image/icons/footer-1-facebook.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="image/icons/footer-2-instagram.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="image/icons/footer-3-twitter.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="image/icons/footer-4-youtobe.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="image/icons/footer-5-instagram.png" alt="">
+                                    </a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
